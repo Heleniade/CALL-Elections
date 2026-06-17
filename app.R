@@ -5,7 +5,7 @@ library(dplyr)
 library(DT)
 library(glue)
 library(thematic)
-
+library(readr)
 
 CALL <- read_csv("data/Liste des communes de la CALL.csv")
 Nuance <- read_csv("data/Nuances de liste.csv")
