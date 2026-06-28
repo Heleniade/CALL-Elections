@@ -121,7 +121,7 @@ server <- function(input, output, session) {
         position = "bottomright",
         pal = pal(),
         values = c(0,100),
-        title = input$variable_elect,
+        title = as.character(labels_variables[input$variable_elect]),
         opacity = 0.8
       )
   })
